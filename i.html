@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title> Example to Perform Drag and Drop</title>
+    <link rel="stylesheet" href="i.css" />
+  </head>
+<body>
+<div class="example-parent">
+  <div class="example-origin">
+    <div      id="draggable-1"
+      class="example-draggable"
+      draggable="true"
+      ondragstart="onDragStart(event);"   >
+      draggable
+    </div>
+  </div>
+     <div    class="example-dropzone" 
+               ondragover="onDragOver(event);"
+               ondrop="onDrop(event);">
+    dropzone
+  </div>
+</div>
+   <script src="i.js"></script>
+</body>
+</html>
